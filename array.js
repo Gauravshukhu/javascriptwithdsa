@@ -40,12 +40,28 @@
     
 //     console.log(sum)}
 
+// finding the min array
+// let arr = [10,20,40, 60 ,70];
+// let min = arr[0]
+// for(let i= 1; i<=arr.length ; i++){
+// if(min>arr[i]){
+//     min= arr[i]
+// }
+// }
+// console.log(min)
 
-let arr = [10,20,40, 60 ,70];
-let min = arr[0]
-for(let i= 1; i<=arr.length ; i++){
-if(min>arr[i]){
-    min= arr[i]
+//reverse the  array with space
+
+
+let arr = [10 , 20 , 30 , 40 , 50]
+let temp = new Array(arr.length)
+let j = 0
+for(let i = arr.length -1; i>=0 ; i--){
+   temp[j] = arr[i];
+   j++
+
 }
-}
-console.log(min)
+console.log(temp)
+
+
+
