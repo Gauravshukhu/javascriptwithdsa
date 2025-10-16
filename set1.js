@@ -57,7 +57,7 @@ let o = 10 ;
 let num = 1234;
 let su = 0;
 
-while (num > 0) {
+while (0<num) {
   let digit = num % 10;  // get last digit
   su += digit;          // add it to sum
   num = Math.floor(num / 10);  // remove last digit
