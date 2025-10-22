@@ -16,3 +16,11 @@ for(let i = 0 ; i<=arr.length-1 ;i++){
 arr[arr.length-1] = first
 
 console.log(arr)
+
+// reverse the string 
+let str = "gaurav"
+let rev = ""
+for(let i = str.length-1  ; i>=0; i--){
+   rev += str[i];
+}
+console.log(rev)
