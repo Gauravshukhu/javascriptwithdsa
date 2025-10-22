@@ -7,7 +7,7 @@ for(let i = arr.length-1;i> 0 ;i--){
 arr[0]= last 
 console.log(arr)
 
-// left rotation by 1 element
+// left rotation by 1 elements
 let rotate = [1,2,3,4,5]
 let first = arr[0]
 for(let i = 0 ; i<=arr.length-1 ;i++){
@@ -17,10 +17,3 @@ arr[arr.length-1] = first
 
 console.log(arr)
 
-// reverse the string 
-let str = "gaurav"
-let rev = ""
-for(let i = str.length-1  ; i>=0; i--){
-   rev += str[i];
-}
-console.log(rev)
