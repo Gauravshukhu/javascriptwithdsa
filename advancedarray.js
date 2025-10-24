@@ -8,7 +8,7 @@ arr[0]= last
 console.log(arr)
 
 // left rotation by 1 elements
-let rotate = [1,2,3,4,5]
+let rot = [1,2,3,4,5]
 let first = arr[0]
 for(let i = 0 ; i<=arr.length-1 ;i++){
    arr[i] = arr[i+1]
