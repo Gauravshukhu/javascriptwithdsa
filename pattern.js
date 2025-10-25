@@ -66,6 +66,29 @@
 // }
 
 
+// character pattern
+ const readline = require("readline");
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.on("line", (input) => {
+  let n = Number(input);
+  
+  for (let i = 0; i < n; i++) {
+    let row = "";
+    for (let j = 0; j <= i; j++) {
+      // Calculate the character code (A=65)
+      let charCode = 65 + (i + j) % 26; 
+      row += String.fromCharCode(charCode);
+    }
+    console.log(row);
+  }
+
+  rl.close();
+});
+
 
 
 
