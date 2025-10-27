@@ -67,27 +67,49 @@
 
 
 // character patternss
- const readline = require("readline");
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
 
-rl.on("line", (input) => {
-  let n = Number(input);
+//  const readline = require("readline");
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
+
+// rl.on("line", (input) => {
+//   let n = Number(input);
   
-  for (let i = 0; i < n; i++) {
-    let row = "";
-    for (let j = 0; j <= i; j++) {
-      // Calculate the character code (A=65)
-      let charCode = 65 + (i + j) % 26; 
-      row += String.fromCharCode(charCode);
+//   for (let i = 0; i < n; i++) {
+//     let row = "";
+//     for (let j = 0; j <= i; j++) {
+//       // Calculate the character code (A=65)
+//       let charCode = 65 + (i + j) % 26; 
+//       row += String.fromCharCode(charCode);
+//     }
+//     console.log(row);
+//   }
+
+//   rl.close();
+// });
+
+
+let m = 0 ;
+let n = 200 ;
+
+
+  for (let num = m; num <= n; num++) {
+    let digits = num.toString().split("");
+    let power = digits.length;
+    let sum = 0;
+
+    for (let d of digits) {
+      sum += Math.pow(Number(d), power);
     }
-    console.log(row);
+
+    if (sum === num) {
+      console.log(num);
+    }
   }
 
-  rl.close();
-});
+
 
 
 
