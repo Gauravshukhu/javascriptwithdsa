@@ -1,17 +1,24 @@
-//normal function 
+// 
 
-function sayhello(){
-    console.log("Hello world  ")
+// sum
+function sum(a,b){
+    console.log(a+b)
 }
+sum(10, 20 )
 
-return sayhello() // call , run , invoke 
-
-// how to call 
-function sayhellos(name = "user"){
-    console.log("Hello " + name)
+// sub
+function sub(o,l){
+    console.log(o-l)
 }
+sub(20,10)
 
- sayhellos("gauravs")
- sayhellos("saurabh") 
- sayhellos("sarvgya") 
- sayhellos() // call , run , invoke 
+// mul
+function mul(m,n){
+    console.log(m*n)
+}
+mul(20,30)
+
+function div(q , p){
+    console.log(q/p)
+}
+div(20,2)
