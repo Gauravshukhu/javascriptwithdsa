@@ -64,15 +64,15 @@ for(let i = arr.length -1; i>=0 ; i--){
 console.log(tems)
 
 
-let sort = [29, 38, 38, 98, 57, 76, 86, 75, 24, 76, 98, 176, 98];
+let sort1 = [29, 38, 38, 98, 57, 76, 86, 75, 24, 76, 98, 176, 98];
 
-for (let i = 0; i < sort.length; i++) {
-  for (let j = i + 1; j < sort.length; j++) {
-    if (sort[i] > sort[j]) {
+for (let i = 0; i < sort1.length; i++) {
+  for (let j = i + 1; j < sort1.length; j++) {
+    if (sort1[i] > sort1[j]) {
       // swap the numbers
-      let temp = sort[i];
-      sort[i] = sort[j];
-      sort[j] = temp;
+      let temp = sort1[i];
+      sort1[i] = sort1[j];
+      sort1[j] = temp;
     }
   }
 }
