@@ -1,7 +1,7 @@
-let arr = [ 1, 2,3 ,4 ]
-for(let i = 0 ; i< arr.length ; i++){
+let arr1 = [ 1, 2,3 ,4 ]
+for(let i = 0 ; i< arr1.length ; i++){
     let sub = []
-    for(let j = i ; j < arr.length; j++){
+    for(let j = i ; j < arr1.length; j++){
         sub += arr[j]
         console.log(sub)
     }

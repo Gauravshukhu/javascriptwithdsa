@@ -14,9 +14,9 @@ sub(20,10)
 
 // mul
 function mul(m,n){
-    console.log(m*n)
+    console.log(m*n *q)
 }
-mul(20,30)
+mul(20,30, 80)
 
 function div(q , p){
     console.log(q/p)

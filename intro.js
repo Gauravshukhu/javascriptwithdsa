@@ -2,6 +2,8 @@
  a = 10;
  b = 300;
  sum = a +b ;
+min =  a-b;
 //  console.log("The sum of", a ,"and", b ,"is"+ sum);
 
 console.log(`The sum of ${a} and ${b} is ${sum}`)
+console.log(`The sum of ${a} and ${b} is ${min}`)
