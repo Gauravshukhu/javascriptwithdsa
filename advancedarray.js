@@ -1,13 +1,13 @@
-// // right rotation by 1 element 
-// let arr = [1,2,3,4,5]
-// let last = arr[arr.length-1];
-// for(let i = arr.length-1;i> 0 ;i--){
-//    arr[i] = arr[i-1]
-// }
-// arr[0]= last 
-// console.log(arr)
+// // // right rotation by 1 element 
+// // let arr = [1,2,3,4,5]
+// // let last = arr[arr.length-1];
+// // for(let i = arr.length-1;i> 0 ;i--){
+// //    arr[i] = arr[i-1]
+// // }
+// // arr[0]= last 
+// // console.log(arr)
 
-// // left rotation by 1 elements
+// // // left rotation by 1 elements
 // let rot = [1,2,3,4,5]
 // let first = arr[0]
 // for(let i = 0 ; i<=arr.length-1 ;i++){
@@ -17,21 +17,32 @@
 
 // console.log(arr)
 
-// finding the second largest no in array
-let arr = [10, 20 , 7 , -9 , 10 , 78] 
-let max = - Infinity
-let sMax = -Infinity
+// // finding the second largest no in array
+// let arr = [10, 20 , 7 , -9 , 10 , 78] 
+// let max = - Infinity
+// let sMax = -Infinity
 
-for(let item of arr){
+// for(let item of arr){
 
-   if(item>max){
-      sMax = max
-      max= item
-   }
+//    if(item>max){
+//       sMax = max
+//       max= item
+//    }
 
-   if(item >sMax && item < max ){
-      sMax = item
-   }
-   console.log(sMax)
+//    if(item >sMax && item < max ){
+//       sMax = item
+//    }
+//    console.log(sMax)
+// }
+
+// left rotation by k steps 
+let val = [1,2,3,4,5] ;
+let k = 2;
+for(let i = 0 ; i<k; i++){
+let copy = val[0];
+for(let j = 0 ; j<val.length-1 ; j++){
+   val[j] = val[j+1]
 }
-
+val[val.length-1] = copy
+}
+console.log(val)
