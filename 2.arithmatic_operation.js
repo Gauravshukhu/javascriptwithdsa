@@ -12,7 +12,7 @@
 // console.log(sum, sub, mul, div, mod, exp);
 
 let a = 10;
-let b= 3;
+let b= 8;
 
 
 let sum = a+b;
