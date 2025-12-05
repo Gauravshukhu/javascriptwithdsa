@@ -2,7 +2,7 @@ let arr1 = [ 1, 2,3 ,4 ]
 for(let i = 0 ; i< arr1.length ; i++){
     let sub = []
     for(let j = i ; j < arr1.length; j++){
-        sub += arr[j]
+        sub += arr1[j]
         console.log(sub)
     }
 }
@@ -14,7 +14,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-let arr1 = [1,2,3,4,5,6,7,8,9,10];
+let arr = [1,2,3,4,5,6,7,8,9,10];
 
 rl.on('line', (input) => {
   let [n, s] = input.split(' ').map(Number);
