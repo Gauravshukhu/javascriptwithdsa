@@ -39,4 +39,29 @@ function InverseCamel(str){
 // Example:
 console.log(InverseCamel("IAmAJavaProgrammer")); 
 
+
+// methods in string 
+
+
+// 1- Length
+let s = "sheryians"
+console.log(s.length)
+
+// 2-Slice
+let g = "gaurav"
+console.log(g.slice(0,5))// 0 - start , 5-1 = 4 is end
+console.log(g.slice(-4,s.length))  // - for taking string from negative side or backside 
+
+//3- substring
+let m = "saurabh"
+console.log(m.substring(2,5))
+
+console.log(m.substr(2))
+
+//- toUpperCase()
+
+let n = "nikhil"
+console.log(n.toUpperCase())
+
+
  
