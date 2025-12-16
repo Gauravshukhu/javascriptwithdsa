@@ -64,4 +64,8 @@ let n = "nikhil"
 console.log(n.toUpperCase())
 
 
+let p = "nikhil"
+console.log(p.toUpperCase())
+
+
  
