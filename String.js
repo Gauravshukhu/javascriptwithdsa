@@ -68,4 +68,14 @@ let p = "nikhil"
 console.log(p.toUpperCase())
 
 
+// for the include 
+let email = "hfjewhgmailcom"
+if(email.includes('@') && email.includes('.')){
+    console.log("email is vaild")
+
+}else{
+    console.log("email is invalid")
+}
+
+
  
