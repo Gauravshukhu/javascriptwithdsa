@@ -22,7 +22,8 @@
     
 // }
 
-// first occurence and last occurence 
+// first occurence and last occurence in through binary search
+
 let bi = [3, 7, 12, 17, 25, 25, 25, 56, 60, 75]
 let target = 25
  
