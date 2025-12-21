@@ -12,7 +12,7 @@ console.log(obj2)
 
 //shallow copy
 
-let obj3 = { a: 1, b: { c: 2 , d:9 } };
+let obj3 = { a: 1, b: { c: 2 , d:9, e:10 } };
 
 let deep = JSON.parse(JSON.stringify(obj3));
 
